@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 # from django.http import HttpResponse
-from blogger.views import my_blog
+# from blogger.views import my_blog
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', my_blog),
+    # path('', my_blog),
 ]
