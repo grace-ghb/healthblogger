@@ -31,7 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp.com', '8000-grace-ghb-healthblogger-inu170jrc8.us2.codeanyapp.com','localhost']
+ALLOWED_HOSTS = ['.herokuapp.com',
+                 '8000-grace-ghb-healthblogger-inu170jrc8.us2.codeanyapp.com', 'localhost']
 
 
 # Application definition
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
 
     # startapp name
     'blogger',
+    'about'
 ]
 
 MIDDLEWARE = [
