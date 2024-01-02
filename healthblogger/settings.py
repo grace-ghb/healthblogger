@@ -143,10 +143,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# Use the default one for local development
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
-    # 'cloudinary_storage.storage.StaticHashedCloudinaryStorage',
-    # 'whitenoise.storage.CompressedManifestStaticFilesStorage',
-    
+# 'cloudinary_storage.storage.StaticHashedCloudinaryStorage',
+# 'whitenoise.storage.CompressedManifestStaticFilesStorage',
+
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
